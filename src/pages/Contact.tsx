@@ -65,7 +65,7 @@ const Contact = () => {
                   <Phone className="h-5 w-5 text-primary mr-3 mt-1" />
                   <div>
                     <p className="font-semibold">Availability</p>
-                    <p className="text-muted-foreground">Available for remote work worldwide</p>
+                    <p className="text-muted-foreground">0332-0829085</p>
                   </div>
                 </div>
               </div>
