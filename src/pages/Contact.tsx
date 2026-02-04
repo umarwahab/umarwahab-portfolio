@@ -4,18 +4,12 @@ import { Mail, Linkedin, Calendar, MessageSquare, MapPin, Phone } from "lucide-r
 
 const Contact = () => {
   const contactLinks = [
-    {
-      icon: Mail,
-      label: "Hotmail",
-      value: "umarwahab45@hotmail.com",
-      href: "mailto:umarwahab45@hotmail.com",
-      color: "text-blue-400"
-    },
+    
     {
       icon: Mail,
       label: "Gmail",
-      value: "umarwahab45@gmail.com",
-      href: "mailto:umarwahab45@gmail.com",
+      value: "umar.wahab2010@gmail.com",
+      href: "mailto:umar.wahab2010@gmail.com",
       color: "text-red-400"
     },
     {
@@ -135,7 +129,7 @@ const Contact = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow transition-all duration-300 hover:scale-105">
-              <a href="mailto:umarwahab45@hotmail.com">
+              <a href="mailto:umar.wahab2010@gmail.com">
                 <Mail className="mr-2 h-5 w-5" />
                 Send Email
               </a>

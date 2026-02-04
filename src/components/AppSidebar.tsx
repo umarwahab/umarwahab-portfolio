@@ -27,7 +27,7 @@ export function AppSidebar() {
         <div className="px-6 mb-8">
           <h2 className={`font-bold transition-all duration-300 ${open ? 'text-xl' : 'text-lg'}`}>
             {open ? (
-              <span className="gradient-text">Syed Umar</span>
+              <span className="gradient-text">Umar Wahab</span>
             ) : (
               <span className="gradient-text">SU</span>
             )}

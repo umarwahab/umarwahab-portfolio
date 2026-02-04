@@ -25,7 +25,7 @@ const Home = () => {
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground mb-4 animate-slide-up delay-100">
-            Senior UI/UX Engineer | Frontend Architect | Mobile App Developer
+            Senior UI/UX Engineer | Frontend Developer | Frontend Architect | CMS Developer | Software Engineer (UI Focused)
           </p>
 
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto animate-slide-up delay-200">
