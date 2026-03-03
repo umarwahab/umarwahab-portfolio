@@ -29,7 +29,7 @@ const Home = () => {
           </p>
 
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto animate-slide-up delay-200">
-            Crafting pixel-perfect, responsive digital experiences with 8+ years of expertise in React, Angular, Vue, and mobile development.
+            Crafting pixel-perfect, responsive digital experiences with 5+ years of expertise in Wordpress, Shopify, React, Angular, Vue, Ionic and React native .
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-slide-up delay-300">

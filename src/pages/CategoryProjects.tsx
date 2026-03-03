@@ -898,7 +898,7 @@ const CategoryProjects = () => {
               }`}
             >
               <Card className="glass-card overflow-hidden hover:shadow-glow transition-all duration-300">
-                <div className="grid md:grid-cols-2 gap-6">
+                <div className="grid xl:grid-cols-2 gap-6">
                   <div className="relative h-64 md:h-full bg-muted overflow-hidden group">
                     <img
                       src={project.image}
@@ -918,8 +918,8 @@ const CategoryProjects = () => {
                       {project.fullDescription}
                     </p>
                     
-                    <div className="flex items-center gap-4">
-                      <div>
+                    <div className="flex   items-center gap-4 max-[1260px]:flex-col ">
+                      <div className="w-full">
                         <h4 className="text-sm font-semibold mb-3 text-primary">Technologies:</h4>
                         <div className="flex flex-wrap gap-2">
                           {project.technologies.map((tech, idx) => (

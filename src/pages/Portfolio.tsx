@@ -54,7 +54,7 @@ const Portfolio = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 ">
           {categories.map((category, index) => {
             const Icon = category.icon;
             return (
@@ -64,7 +64,7 @@ const Portfolio = () => {
                 style={{ animationDelay: `${index * 100}ms` }}
                 onClick={() => navigate(`/portfolio/${category.id}`)}
               >
-                <div className="relative h-48 bg-muted overflow-hidden">
+                <div className="relative h-48 bg-muted overflow-hidden max-lg:h-60">
                   <img
                     src={category.image}
                     alt={category.name}
@@ -72,7 +72,7 @@ const Portfolio = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-card via-card/60 to-transparent" />
                   <div className="absolute bottom-4 left-4 right-4">
-                    <div className="flex items-center gap-3 mb-2">
+                    <div className="flex items-center gap-3 mb-2 max-lg:flex-col">
                       <div className="p-2 rounded-lg bg-primary/20 backdrop-blur-sm">
                         <Icon className="h-6 w-6 text-primary" />
                       </div>

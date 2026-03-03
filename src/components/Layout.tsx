@@ -18,8 +18,8 @@ export function Layout({ children }: LayoutProps) {
               <SidebarTrigger className="text-foreground hover:text-primary transition-colors">
                 <Menu className="h-5 w-5" />
               </SidebarTrigger>
-              <div className="ml-auto">
-                <span className="text-sm text-muted-foreground">Available for opportunities</span>
+              <div className="ml-auto hidden">
+                <span className="text-sm text-muted-foreground">Availabl</span>
               </div>
             </div>
           </header>
